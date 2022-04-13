@@ -1,0 +1,102 @@
+html, body {
+    background-color: rgba(194, 189, 189, 0.959);
+    margin: auto;
+} 
+ 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px; 
+    background-color: #19194b;
+    color: rgb(41, 39, 167);
+    height: 70px;
+} 
+
+.header img {
+    width: 170px;
+    margin-bottom: 120px;
+}
+
+
+.menu li {
+    display: inline;
+    font-size: large;
+    position: relative;
+}
+
+.menu li a {
+    padding: 25px;
+}
+
+.menu-list>li:hover .sub-menu-list {
+    display: block;
+}
+
+.sub-menu-list {
+    min-height: 250px;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.sub-menu-list {
+    background-color: #19194b;
+}
+.sub-menu-link {
+    color: #2e2e8a;
+    display: inline-block;
+}
+
+.sub-menu-list>li:hover .sub-sub-menu-list {
+    display: block;
+}
+
+.sub-sub-menu-list {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    min-width: 100px;
+    padding: 0px 0px 0px 10px;
+    display: none;
+}
+
+.sub-sub-menu-list {
+    background-color: #19194b;
+}
+
+.sub-sub-menu-link {
+    color: #2e2e8a;
+    display: inline-block;
+}
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 100px;
+    grid-column-gap: 22px ;
+    grid-row-gap: 30px;
+}
+
+
+.div-p {
+    text-transform: uppercase;
+    color: rgb(30, 172, 172);
+}
+
+.div-p2 {
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+}
+
+.div-span-p .span1 {
+    font-size: 12px;
+    color: rgb(51, 50, 50);
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #19194b;
+    color:rgb(41, 39, 167) ;
+    height: 23px;
+}
